@@ -1,0 +1,5 @@
+Diseñar una aplicación en Java que permita registrar, mostrar y gestionar productos, 
+así como crear pedidos que involucren varios productos. 
+El sistema deberá hacer uso de variables, operadores, colecciones (listas),
+POO (clases, objetos, encapsulamiento, herencia, polimorfismo),
+excepciones y organización de código en paquetes/módulos.
