@@ -1,7 +1,9 @@
+import Service.Service;
+
 public class Main {
     public static void main(String[] args) {
-        GestorProductos gestor = new GestorProductos();
-        gestor.mostrarMenu();
-    }
 
+        Service service = new Service();
+        service.mostrarMenu();
+    }
 }

@@ -1,3 +1,5 @@
+package productos;
+
 public class Producto {
     private static long contador = 0;
     private long id;
@@ -17,7 +19,7 @@ public class Producto {
 
     @Override
     public String toString() {
-        return "Producto [id=" + id + ", stock=" + stock + ", name=" + name + ", price=" + price + "]";
+        return "Producto [id=" + id + ", name=" + name + ", price=" + price + ", stock=" + stock + "] ";
     }
 
     public static long getContador() {
