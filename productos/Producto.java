@@ -14,12 +14,10 @@ public class Producto {
         this.price = price;
     }
 
-    public void agregarProducto() {
-    }
-
     @Override
     public String toString() {
-        return "Producto [id=" + id + ", name=" + name + ", price=" + price + ", stock=" + stock + "] ";
+        return "Producto: id: " + id + ", nombre: " + name + ", precio: $" + price + ", stock: " + stock;
+
     }
 
     public static long getContador() {
